@@ -1,0 +1,20 @@
+{
+  "name": "projet-9-ocr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "source": "index.html",
+  "scripts": {
+    "server": "lite-server",
+    "start": "npm run server",
+    "parcel": "parcel"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-critical": "^3.0.1",
+    "lite-server": "^2.6.1",
+    "parcel": "^2.12.0"
+  }
+}

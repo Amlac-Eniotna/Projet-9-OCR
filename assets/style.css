@@ -6,6 +6,8 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
+
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -38,7 +40,9 @@ body {
 	color: #000
 }
 
-.social-link img {
+.social-link img,
+.social-link picture,
+.social-link source {
 	width: 20px;
 }
 
@@ -147,7 +151,8 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: 2.5em;
+	line-height: 1.2;
 }
 .quote__author {
 	font-family: Spectral;
